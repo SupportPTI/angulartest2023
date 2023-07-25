@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import { CoursesService } from './courses.service'; //test
 
+//this is componenet for courses 
 @Component({
     selector: 'courses',
     template: ` Number of courses = {{courses.length}}
